@@ -102,7 +102,6 @@ class Basket {
      * @param {Float} num
      * @param {Int} decimals
      * @returns {Float}
-     * // TODO: add @see link
      */
     round(num, decimals) {
         return parseFloat(parseFloat(num).toFixed(decimals));
